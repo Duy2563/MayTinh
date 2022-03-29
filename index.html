@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/Maytinh.css">
+    <script src="Js/Maytinh.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Máy tính cơ bản</h3>
+            <table>
+                <tr>
+                    <td>
+                        <div id="numberOne"></div>
+                    </td>
+                    <td>
+                        <div id="calculation"></div>
+                    </td>
+                    <td>
+                        <div id="numberTwo"></div>
+                    </td>
+                    <td>
+                        <div id="result"></div>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td><button onclick="Calculator.nhap(9)">9</button></td>
+                    <td><button onclick="Calculator.nhap(8)">8</button></td>
+                    <td><button onclick="Calculator.nhap(7)">7</button></td>
+                    <td><button class="PhepTinh" onclick="Calculator.phepTinh('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="Calculator.nhap(6)">6</button></td>
+                    <td><button onclick="Calculator.nhap(5)">5</button></td>
+                    <td><button onclick="Calculator.nhap(4)">4</button></td>
+                    <td><button class="PhepTinh" onclick="Calculator.phepTinh('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="Calculator.nhap(3)">3</button></td>
+                    <td><button onclick="Calculator.nhap(2)">2</button></td>
+                    <td><button onclick="Calculator.nhap(1)">1</button></td>
+                    <td><button class="PhepTinh" onclick="Calculator.phepTinh('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="Calculator.nhap(0)">0</button></td>
+                    <td><button class="PhepTinh" onclick="Calculator.lamlai()">C</button></td>
+                    <td><button class="PhepTinh" onclick="Calculator.thucHien()">=</button></td>
+                    <td><button class="PhepTinh" onclick="Calculator.phepTinh(':')">:</button></td>
+                </tr>
+
+            </table>
+    </div>
+</body>
+
+</html>

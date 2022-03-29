@@ -1,0 +1,70 @@
+*{
+    font-weight: bold;
+    
+}
+body{
+    margin: 0;
+    background: #FFA17F;
+    background: -webkit-linear-gradient(to right,#FFE4E1 #FFA17F);
+    background: linear-gradient(to right, #FFE4E1, #FFA17F);
+    padding: 0;
+}
+.container{
+    width: 550px;
+    height: 650px;
+    margin: 100px auto;
+    background-color: #FFF0F5;
+    border: 1px solid #E0FFFF;
+}
+h2{
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+    color: #696969;
+    background-color: #FFE4E1;
+}
+table{
+    position: relative;
+    margin: 0px auto;
+    top: 30px;
+    
+}
+table tr td button{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    font-size: 26px;
+    border: none;
+    border-radius: 100px;
+    background-color: #DDA0DD;
+}
+table tr td div{
+    border-radius: 100px;
+    padding: 30px;
+    text-align: center;
+    font-size: 26px;
+}
+#numberOne{
+    background-color: #FF69B4;
+    color: #fff;
+    
+}
+#calculation{
+    background-color: #FF69B4;
+    color: #fff;
+}
+#numberTwo{
+    background-color: #FF69B4;
+    color: #fff;
+}
+#result{
+    background-color: #FF69B4;
+    color: #fff;
+}
+.PhepTinh{
+    background-color: orange;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 26px;
+    text-align: center;
+}
